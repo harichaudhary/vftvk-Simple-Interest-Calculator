@@ -36,8 +36,8 @@ function compute()
     var result = document.getElementById("result");
 
     // add result by setting innerHTML property
-    result.innerHTML = 'If you deposit <span style="background-color:yellow;">' + principal + '</span>,\<br\>';
-    result.innerHTML += 'at an interest rate of <span style="background-color:yellow;">' + rate + '%</span>.\<br\>';
-    result.innerHTML += 'You will receive an amount of <span style="background-color:yellow;">' + interest + '</span>,\<br\>';
-    result.innerHTML += 'in the year <span style="background-color:yellow;">' + year + '</span>\<br\>';
+    result.innerHTML = 'If you deposit <span class="number">' + principal + '</span>,\<br\>';
+    result.innerHTML += 'at an interest rate of <span class="number">' + rate + '%</span>.\<br\>';
+    result.innerHTML += 'You will receive an amount of <span class="number">' + interest + '</span>,\<br\>';
+    result.innerHTML += 'in the year <span class="number">' + year + '</span>\<br\>';
 }
