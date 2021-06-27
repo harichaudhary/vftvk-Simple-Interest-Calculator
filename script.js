@@ -4,7 +4,7 @@ function updateRate()
     // get rate from rate range
     var rateval = document.getElementById("rate").value;
     // set rate in rate_val span
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText = rateval + "%";
 }
 
 // function computes the interest and display the results
