@@ -12,10 +12,18 @@ h1{
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
-    padding:20px;
+    width:500px;
+    padding:30px;
     border-radius: 25px;
+    margin: auto;
     align: center;
 }
 
+table{
+    width:80%;
+    margin: auto;
+}
 
+td {
+  padding: 5px;
+}
